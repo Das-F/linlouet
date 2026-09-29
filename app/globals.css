@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap");
 
 :root {
   /* Typography */
-  --font-primary: "Cormorant Garamond", serif; /* titres */
-  --font-secondary: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* texte */
-  --font-italic: "Cormorant Garamond", serif; /* variante italique */
+  --font-primary: "Cormorant", serif; /* titres */
+  --font-secondary: "Cormorant", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* texte */
+  --font-italic: "Cormorant", serif; /* variante italique */
 
   /* Colors */
   --text: #55524e;
   --text-h: #16131f;
   --bg: #f4efe6;
-  --header-bg: #4b5b4f;
+  --header-bg: #1f2a24;
   --nav-text: #f4efe6;
   --accent-text: #7a5c46;
-  --footer-bg: #4b5b4f;
+  --footer-bg: #1f2a24;
   --border: #7a5c46;
   --button-bg: #7a5c46;
   --hover-bg: #233127;

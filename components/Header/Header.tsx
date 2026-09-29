@@ -13,7 +13,7 @@ export default function Header() {
             Nos naissances
           </Link>
           <Link href="/" className={styles["nav-link"]}>
-            <img src="/assets/Logo-linlouet.jpg" className={styles.logo} alt="Logo de l'Élevage de Linlouet" />
+            <img src="/assets/images/Logo_linlouet.jpg" className={styles.logo} alt="Logo de l'Élevage de Linlouet" />
           </Link>
           <Link href="/contact" className={styles["nav-link"]}>
             Contact
