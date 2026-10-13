@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <div className={styles["horse-card"]}>
               <div className={styles["horse-image"]}>
-                <img className={styles["horse-img"]} src="/assets/images/horses/photo_boheme.jpg" alt="Cheval 1" />
+                <img className={styles["horse-img"]} src="/assets/images/horses/Pouliniere-Boheme/photo_boheme.jpg" alt="Photo poulinière Bohême" />
                 <span className={styles["horses-overlay"]}>Découvrir</span>
               </div>
             </div>
@@ -82,16 +82,20 @@ export default function Home() {
 
       <section className={styles["news-section"]}>
         <div className={styles["news-content"]}>
-          <h2>La Vie à Linlouët</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2>Actualités de Linlouët</h2>
           <div className={styles["news-cards"]}>
             <div className={styles["news-card"]}>
-              <img className={styles["news-img"]} src="/assets/images/news/RS-1.png" alt="Cheval 1" />
-              <div className={styles["news-button"]}>En voir plus</div>
-            </div>
-            <div className={styles["news-card"]}>
-              <img className={styles["news-img"]} src="/assets/images/news/RS-2.png" alt="Cheval 1" />
-              <div className={styles["news-button"]}>En voir plus</div>
+              <img className={styles["news-img"]} src="/assets/images/horses/Poulain-Unice/photo_unice_cabree.jpg" alt="Photo Poulain Unice dans son enclos" />
+              <div className={styles["social-links"]}>
+                <div className={styles["social-link"]}>
+                  <p>Elevage de Linlouët</p>
+                  <img className={styles["social-icon"]} src="/assets/images/social_medias/logo-facebook.png" alt="Lien vers la page Facebook de l'élevage" />
+                </div>
+                <div className={styles["social-link"]}>
+                  elevagedelinlouet
+                  <img className={styles["social-icon"]} src="/assets/images/social_medias/logo-instagram.png" alt="Lien vers la page Instagram de l'élevage" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
