@@ -25,3 +25,32 @@
   font-size: 2.3rem;
   font-weight: 400;
 }
+
+.methods-text h3 {
+  margin-bottom: 20px;
+  color: var(--accent-text);
+  font-family: var(--font-primary);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.methods-img {
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+  object-fit: contain;
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+.methods-text h4 {
+  margin-bottom: 20px;
+  color: var(--accent-text);
+  font-family: var(--font-primary);
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.methods-text p {
+  margin: 12px 0;
+}
