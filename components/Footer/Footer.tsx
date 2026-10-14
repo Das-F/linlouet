@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={styles["footer-content"]}>
         <div className={styles["footer-logo-section"]}>
           <Link href="/" className={styles["footer-link"]}>
-            <img className={styles["footer-logo"]} src="/assets/Logo-linlouet.jpg" alt="Logo de l'Élevage de Linlouet" />
+            <img className={styles["footer-logo"]} src="/assets/images/Logo_linlouet.jpg" alt="Logo de l'Élevage de Linlouet" />
           </Link>
         </div>
         <div className={styles["footer-links"]}>

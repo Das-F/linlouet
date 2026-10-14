@@ -83,18 +83,16 @@ export default function Home() {
       <section className={styles["news-section"]}>
         <div className={styles["news-content"]}>
           <h2>Actualités de Linlouët</h2>
-          <div className={styles["news-cards"]}>
-            <div className={styles["news-card"]}>
-              <img className={styles["news-img"]} src="/assets/images/horses/Poulain-Unice/photo_unice_cabree.jpg" alt="Photo Poulain Unice dans son enclos" />
-              <div className={styles["social-links"]}>
-                <div className={styles["social-link"]}>
-                  <p>Elevage de Linlouët</p>
-                  <img className={styles["social-icon"]} src="/assets/images/social_medias/logo-facebook.png" alt="Lien vers la page Facebook de l'élevage" />
-                </div>
-                <div className={styles["social-link"]}>
-                  elevagedelinlouet
-                  <img className={styles["social-icon"]} src="/assets/images/social_medias/logo-instagram.png" alt="Lien vers la page Instagram de l'élevage" />
-                </div>
+          <div className={styles["news-img-container"]}>
+            <img className={styles["news-img"]} src="/assets/images/horses/Poulain-Unice/photo_unice_cabree.jpg" alt="Photo Poulain Unice dans son enclos" />
+            <div className={styles["social-links"]}>
+              <div className={styles["social-link"]}>
+                <p>Elevage de Linlouët</p>
+                <img className={`${styles["social-icon"]} ${styles["social-icon-facebook"]}`} src="/assets/images/social_medias/logo-facebook.png" alt="Lien vers la page Facebook de l'élevage" />
+              </div>
+              <div className={styles["social-link"]}>
+                <p>elevagedelinlouet</p>
+                <img className={`${styles["social-icon"]} ${styles["social-icon-instagram"]}`} src="/assets/images/social_medias/logo-instagram.png" alt="Lien vers la page Instagram de l'élevage" />
               </div>
             </div>
           </div>

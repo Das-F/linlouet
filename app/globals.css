@@ -3,7 +3,7 @@
 :root {
   /* Typography */
   --font-primary: "Cormorant", serif; /* titres */
-  --font-secondary: "Cormorant", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* texte */
+  --font-secondary: "Cormorant", serif; /* texte */
   --font-italic: "Cormorant", serif; /* variante italique */
 
   /* Colors */
@@ -44,6 +44,18 @@ h4,
 h5 {
   font-family: var(--font-primary);
   color: var(--text-h);
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.h2 {
+  font-family: var(--font-primary);
+  color: var(--text-h);
+  font-size: 2.5rem;
+  margin: 10px 0;
+  font-style: normal;
 }
 
 /* Utility class for explicit Cormorant italic */
