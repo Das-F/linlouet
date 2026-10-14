@@ -50,12 +50,24 @@ h2 {
   font-weight: 400;
 }
 
-.h2 {
-  font-family: var(--font-primary);
-  color: var(--text-h);
-  font-size: 2.5rem;
-  margin: 10px 0;
-  font-style: normal;
+h1 {
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.65rem;
+  font-weight: 600;
 }
 
 /* Utility class for explicit Cormorant italic */

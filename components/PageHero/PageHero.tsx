@@ -11,7 +11,7 @@ export default function PageHero({ imageSrc, imageAlt, title }: PageHeroProps) {
     <div className={styles["page-hero"]}>
       <img className={styles["page-hero-image"]} src={imageSrc} alt={imageAlt} />
       <div className={styles["page-hero-title"]}>
-        <h2>{title}</h2>
+        <h1 className="h1">{title}</h1>
       </div>
     </div>
   );
