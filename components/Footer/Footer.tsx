@@ -14,11 +14,14 @@ export default function Footer() {
           <Link href="/" className={styles["footer-link"]}>
             Accueil
           </Link>
+          <Link href="/nos-methodes" className={styles["footer-link"]}>
+            Nos méthodes
+          </Link>
           <Link href="/chevaux" className={styles["footer-link"]}>
             Nos chevaux
           </Link>
-          <Link href="/galerie" className={styles["footer-link"]}>
-            Galerie
+          <Link href="/naissances" className={styles["footer-link"]}>
+            Nos naissances
           </Link>
           <Link href="/contact" className={styles["footer-link"]}>
             Venir à Linlouët

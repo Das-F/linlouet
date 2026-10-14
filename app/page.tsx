@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <div className={styles["horse-card"]}>
               <div className={styles["horse-image"]}>
-                <img className={styles["horse-img"]} src="/assets/images/horses/vermeer.jpg" alt="Cheval 1" />
+                <img className={styles["horse-img"]} src="/assets/images/horses/Poulain-Xaman/photo_xaman.jpg" alt="Cheval 1" />
                 <span className={styles["horses-overlay"]}>Découvrir</span>
               </div>
             </div>
