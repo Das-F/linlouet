@@ -1,0 +1,34 @@
+.page-hero {
+  position: relative;
+  width: 100%;
+  max-width: 1800px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.page-hero-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  opacity: 0.65;
+}
+
+.page-hero-title {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  width: 100%;
+  padding: 30px 30px 24px;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.page-hero-title h2 {
+  margin: 0;
+  color: var(--accent-text);
+  font-size: 2.7rem;
+}

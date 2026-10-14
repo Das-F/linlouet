@@ -15,23 +15,26 @@ export default function Header() {
           <Link href="/" className={styles["nav-link"]}>
             <img src="/assets/images/Logo_linlouet_header.jpg" className={styles.logo} alt="Logo de l'Élevage de Linlouet" />
           </Link>
+          <Link href="/nos-methodes" className={styles["nav-link"]}>
+            Nos méthodes
+          </Link>
           <Link href="/contact" className={styles["nav-link"]}>
             Contact
           </Link>
-          <div className={styles.languages}>
-            <Link href="/fr" className={styles["lang-link"]}>
-              FR
-            </Link>
-            <span className={styles["span"]}>|</span>
-            <Link href="/en" className={styles["lang-link"]}>
-              EN
-            </Link>
-            <span className={styles["span"]}>|</span>
-            <Link href="/de" className={styles["lang-link"]}>
-              DE
-            </Link>
-          </div>
         </nav>
+        <div className={styles.languages}>
+          <Link href="/fr" className={styles["lang-link"]}>
+            FR
+          </Link>
+          <span className={styles["span"]}>|</span>
+          <Link href="/en" className={styles["lang-link"]}>
+            EN
+          </Link>
+          <span className={styles["span"]}>|</span>
+          <Link href="/de" className={styles["lang-link"]}>
+            DE
+          </Link>
+        </div>
       </div>
     </header>
   );
