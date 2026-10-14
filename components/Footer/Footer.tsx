@@ -17,7 +17,7 @@ export default function Footer() {
           <Link href="/nos-methodes" className={styles["footer-link"]}>
             Nos méthodes
           </Link>
-          <Link href="/chevaux" className={styles["footer-link"]}>
+          <Link href="/nos-chevaux" className={styles["footer-link"]}>
             Nos chevaux
           </Link>
           <Link href="/naissances" className={styles["footer-link"]}>

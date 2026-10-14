@@ -6,7 +6,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles["header-content"]}>
         <nav className={styles["header-nav"]}>
-          <Link href="/chevaux" className={styles["nav-link"]}>
+          <Link href="/nos-chevaux" className={styles["nav-link"]}>
             Nos chevaux
           </Link>
           <Link href="/naissances" className={styles["nav-link"]}>
