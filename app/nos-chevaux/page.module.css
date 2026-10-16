@@ -18,7 +18,9 @@
 }
 
 .horse-group-title {
-  width: min(100%, 1500px);
+  width: 800px;
+  display: flex;
+  justify-content: center;
   margin: 0 auto 32px;
   color: var(--accent-text);
   text-align: center;
