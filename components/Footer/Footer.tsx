@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={styles["footer-content"]}>
         <div className={styles["footer-logo-section"]}>
           <Link href="/" className={styles["footer-link"]}>
-            <img className={styles["footer-logo"]} src="/assets/images/Logo_linlouet.jpg" alt="Logo de l'Élevage de Linlouet" />
+            <img className={styles["footer-logo"]} src="/assets/images/Logos/logo_linlouet_full.png" alt="Logo de l'Élevage de Linlouet" />
           </Link>
         </div>
         <div className={styles["footer-links"]}>
@@ -19,9 +19,6 @@ export default function Footer() {
           </Link>
           <Link href="/nos-chevaux" className={styles["footer-link"]}>
             Nos chevaux
-          </Link>
-          <Link href="/naissances" className={styles["footer-link"]}>
-            Nos naissances
           </Link>
           <Link href="/contact" className={styles["footer-link"]}>
             Venir à Linlouët
@@ -36,9 +33,6 @@ export default function Footer() {
           </Link>
           <Link href="/politiqueconfidentialite" className={styles["footer-link"]}>
             Politique de confidentialité
-          </Link>
-          <Link href="/cookies" className={styles["footer-link"]}>
-            Cookies
           </Link>
         </div>
       </div>
