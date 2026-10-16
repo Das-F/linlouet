@@ -313,6 +313,14 @@
   color: var(--nav-text);
 }
 
+.social-link a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
 .social-link p {
   margin: 0;
   font-family: var(--font-primary);
@@ -320,6 +328,7 @@
   color: var(--accent-text);
   text-decoration: none;
   width: auto;
+  max-width: none;
 }
 
 .social-link p:hover {
