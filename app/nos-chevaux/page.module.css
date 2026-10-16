@@ -98,3 +98,66 @@
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.horse-detail {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 40px;
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  align-items: start;
+}
+
+.horse-detail .horse-photo-frame {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.horse-detail-content {
+  color: var(--accent-text);
+  font-family: var(--font-primary);
+}
+
+.horse-detail-category {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+}
+
+.horse-detail-title {
+  margin: 0 0 20px;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.horse-detail-description {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.horse-back-link {
+  display: inline-block;
+  margin-top: 28px;
+  color: var(--accent-text);
+  font-family: var(--font-primary);
+  text-decoration: none;
+}
+
+.horse-back-link:hover {
+  text-decoration: underline;
+}
+
+.horse-card-link {
+  display: block;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 760px) {
+  .horse-detail {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+}
