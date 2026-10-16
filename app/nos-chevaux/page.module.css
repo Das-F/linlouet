@@ -24,6 +24,7 @@
   margin: 0 auto 32px;
   color: var(--accent-text);
   text-align: center;
+  scroll-margin-top: var(--header-height);
 }
 
 .stallions-section .horse-group-title {

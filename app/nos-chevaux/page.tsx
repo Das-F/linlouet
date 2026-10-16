@@ -40,7 +40,9 @@ export default function Horses() {
       />
 
       <section className={`${styles["horse-group"]} ${styles["mares-section"]}`}>
-        <h2 className={styles["horse-group-title"]}>Nos poulinières</h2>
+        <h2 className={styles["horse-group-title"]} id="poulinieres">
+          Nos poulinières
+        </h2>
         <div className={styles["horse-card-grid"]}>
           {mares.map((horse) => (
             <HorseCard key={horse.slug} horse={horse} />
@@ -49,7 +51,9 @@ export default function Horses() {
       </section>
 
       <section className={`${styles["horse-group"]} ${styles["stallions-section"]}`}>
-        <h2 className={styles["horse-group-title"]}>Les étalons sélectionnés</h2>
+        <h2 className={styles["horse-group-title"]} id="etalons">
+          Les étalons sélectionnés
+        </h2>
         <div className={styles["horse-card-grid"]}>
           {stallions.map((horse) => (
             <HorseCard key={horse.slug} horse={horse} />
@@ -58,7 +62,9 @@ export default function Horses() {
       </section>
 
       <section className={`${styles["horse-group"]} ${styles["foals-section"]}`}>
-        <h2 className={styles["horse-group-title"]}>Nos poulains</h2>
+        <h2 className={styles["horse-group-title"]} id="poulains">
+          Nos poulains
+        </h2>
         <div className={styles["horse-card-grid"]}>
           {foals.map((horse) => (
             <HorseCard key={horse.slug} horse={horse} />

@@ -18,6 +18,8 @@
   --button-bg: #7a5c46;
   --hover-bg: #233127;
   --contact-btn-bg: #dccdb8;
+
+  --header-height: 120px;
 }
 
 * {
