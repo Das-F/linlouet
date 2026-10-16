@@ -12,23 +12,25 @@ export type Horse = {
 export const mares: Horse[] = [
   {
     slug: "boheme",
-    name: "Bohême",
+    name: "Bohême de la Roche",
     image: "/assets/images/horses/Pouliniere-Boheme/photo_boheme.jpg",
-    alt: "Bohême, poulinière de l'élevage de Linlouët",
+    alt: "Bohême de la Roche, poulinière de l'élevage de Linlouët",
     category: "mare",
-    description: "Fiche de Bohême à compléter.",
+    description: "Bohême de la Roche, par Samurai SS x Lena Menezes par Visquilho",
   },
   {
-    slug: "bella-gloria",
-    name: "Bella Gloria",
+    slug: "bela-gloria",
+    name: "Bela Gloria de Manolo",
+    alt: "Bela Gloria de Manolo, poulinière de l'élevage de Linlouët",
     category: "mare",
-    description: "Fiche de Bella Gloria à compléter.",
+    description: "Bela Gloria de Manolo par Agua-Viva CSM x Teara.",
   },
   {
     slug: "nazare",
-    name: "Nazaré",
+    name: "Nazaré Da Sernadinha",
+    alt: "Nazaré Da Sernadinha, poulinière de l'élevage de Linlouët",
     category: "mare",
-    description: "Fiche de Nazaré à compléter.",
+    description: "Nazaré Da Sernadinha, par Spartacus x Diolinda.",
   },
 ];
 
@@ -52,27 +54,27 @@ export const stallions: Horse[] = [
 export const foals: Horse[] = [
   {
     slug: "unice",
-    name: "Unice",
+    name: "Unice de Linlouët",
     image: "/assets/images/horses/Poulain-Unice/photo_unice_cabree.jpg",
-    alt: "Unice, poulain de l'élevage de Linlouët",
+    alt: "Unice de Linlouët, poulain de l'élevage de Linlouët",
     category: "foal",
-    description: "Fiche d'Unice à compléter.",
+    description: "Unice de Linlouët, par Imperador LBA x Bohême de la Roche par Samurai SS, née en 2024.",
   },
   {
     slug: "vermeer",
-    name: "Vermeer",
+    name: "Vermeer LR",
     image: "/assets/images/horses/Poulain-Vermeer/photo-vermeer.jpg",
-    alt: "Vermeer, poulain de l'élevage de Linlouët",
+    alt: "Vermeer LR, poulain de l'élevage de Linlouët",
     category: "foal",
-    description: "Fiche de Vermeer à compléter.",
+    description: "Vermeer LR, par Imperador LBA x Bela Gloria de Manolo par Agua Viva CSM, né en 2025.",
   },
   {
     slug: "xaman",
-    name: "Xaman",
+    name: "Xaman de Linlouët",
     image: "/assets/images/horses/Poulain-Xaman/photo_xaman.jpg",
-    alt: "Xaman, poulain de l'élevage de Linlouët",
+    alt: "Xaman de Linlouët, poulain de l'élevage de Linlouët",
     category: "foal",
-    description: "Fiche de Xaman à compléter.",
+    description: "Xaman de Linlouët, par Ofensor MAC x Nazaré Da Sernadinha par Spartacus, né en 2026.",
   },
 ];
 
