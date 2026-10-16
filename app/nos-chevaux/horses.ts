@@ -13,7 +13,7 @@ export const mares: Horse[] = [
   {
     slug: "boheme",
     name: "Bohême de la Roche",
-    image: "/assets/images/horses/Pouliniere-Boheme/photo_boheme.jpg",
+    image: "/assets/images/horses/Poulinieres/Boheme/photo-principale.jpg",
     alt: "Bohême de la Roche, poulinière de l'élevage de Linlouët",
     category: "mare",
     description: "Bohême de la Roche, par Samurai SS x Lena Menezes par Visquilho",
@@ -21,6 +21,7 @@ export const mares: Horse[] = [
   {
     slug: "bela-gloria",
     name: "Bela Gloria de Manolo",
+    image: "/assets/images/horses/Poulinieres/BelaGloria/photo-principale.jpg",
     alt: "Bela Gloria de Manolo, poulinière de l'élevage de Linlouët",
     category: "mare",
     description: "Bela Gloria de Manolo par Agua-Viva CSM x Teara.",
@@ -28,6 +29,7 @@ export const mares: Horse[] = [
   {
     slug: "nazare",
     name: "Nazaré Da Sernadinha",
+    image: "/assets/images/horses/Poulinieres/Nazare/photo-principale.jpg",
     alt: "Nazaré Da Sernadinha, poulinière de l'élevage de Linlouët",
     category: "mare",
     description: "Nazaré Da Sernadinha, par Spartacus x Diolinda.",
@@ -37,17 +39,19 @@ export const mares: Horse[] = [
 export const stallions: Horse[] = [
   {
     slug: "ofensor",
-    name: "Ofensor",
-    image: "/assets/images/horses/photo_etalon_ofensor.jpg",
-    alt: "Ofensor, étalon sélectionné",
+    name: "Ofensor MAC",
+    image: "/assets/images/horses/Etalons/Ofensor-MAC/photo-principale.jpg",
+    alt: "Ofensor MAC, étalon sélectionné",
     category: "stallion",
-    description: "Fiche d'Ofensor à compléter.",
+    description: "Fiche d'Ofensor MAC à compléter.",
   },
   {
-    slug: "etalon-a-completer",
-    name: "Étalon à compléter",
+    slug: "imperador",
+    name: "Imperador LBA",
+    image: "/assets/images/horses/Etalons/Imperador-LBA/photo-principale.jpg",
+    alt: "Imperador LBA, étalon sélectionné",
     category: "stallion",
-    description: "Fiche à compléter.",
+    description: "Fiche d'Imperador LBA à compléter.",
   },
 ];
 
@@ -55,7 +59,7 @@ export const foals: Horse[] = [
   {
     slug: "unice",
     name: "Unice de Linlouët",
-    image: "/assets/images/horses/Poulain-Unice/photo_unice_cabree.jpg",
+    image: "/assets/images/horses/Poulains/Unice/photo-principale.jpg",
     alt: "Unice de Linlouët, poulain de l'élevage de Linlouët",
     category: "foal",
     description: "Unice de Linlouët, par Imperador LBA x Bohême de la Roche par Samurai SS, née en 2024.",
@@ -63,7 +67,7 @@ export const foals: Horse[] = [
   {
     slug: "vermeer",
     name: "Vermeer LR",
-    image: "/assets/images/horses/Poulain-Vermeer/photo-vermeer.jpg",
+    image: "/assets/images/horses/Poulains/Vermeer/photo-principale.jpg",
     alt: "Vermeer LR, poulain de l'élevage de Linlouët",
     category: "foal",
     description: "Vermeer LR, par Imperador LBA x Bela Gloria de Manolo par Agua Viva CSM, né en 2025.",
@@ -71,7 +75,7 @@ export const foals: Horse[] = [
   {
     slug: "xaman",
     name: "Xaman de Linlouët",
-    image: "/assets/images/horses/Poulain-Xaman/photo_xaman.jpg",
+    image: "/assets/images/horses/Poulains/Xaman/photo-principale.jpg",
     alt: "Xaman de Linlouët, poulain de l'élevage de Linlouët",
     category: "foal",
     description: "Xaman de Linlouët, par Ofensor MAC x Nazaré Da Sernadinha par Spartacus, né en 2026.",
