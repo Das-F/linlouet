@@ -125,6 +125,29 @@
   margin: 5px auto;
 }
 
+.methods-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.methods-button {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: 1.2rem;
+  color: var(--accent-text);
+  text-decoration: none;
+  width: auto;
+  max-width: none;
+}
+
+.methods-button:hover {
+  color: var(--hover-bg);
+  text-decoration: underline;
+}
+
 /* Horses section */
 .horses-section {
   width: 100%;

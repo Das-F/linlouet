@@ -32,6 +32,11 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed pretium enim, et gravida turpis. Donec eleifend quam et tellus semper laoreet. Proin nec tempor lorem, non tempus nulla. Nunc accumsan nisi eget mi eleifend euismod. Vestibulum sed imperdiet dolor. Aliquam gravida, ante in sollicitudin semper, turpis ante interdum nisi, vitae euismod augue eros sed lacus. Ut pharetra efficitur dictum. Morbi auctor sem quis elit ullamcorper porta. In a aliquet orci. Integer eleifend ipsum lorem, tincidunt venenatis ante finibus sed. Maecenas accumsan tincidunt justo, non feugiat tortor ullamcorper et. Vivamus a vulputate sem. Cras a quam scelerisque, dapibus mi vel, aliquam est. Aenean semper rutrum felis. Vestibulum cursus tortor malesuada eros finibus, nec tincidunt purus
               maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque id lorem id nunc consequat imperdiet eget cursus elit. Nam id arcu rhoncus, bibendum nulla quis, egestas urna.
             </p>
+            <div className={styles["methods-link"]}>
+              <Link href="/nos-methodes" className={styles["methods-button"]}>
+                Découvrir nos méthodes
+              </Link>
+            </div>
           </div>
         </div>
       </section>
