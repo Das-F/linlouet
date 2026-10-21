@@ -57,6 +57,7 @@
   bottom: 12px;
   width: min(90%, 1200px);
   padding: 30px;
+  border-radius: 5px;
 }
 
 .home-hero-content h1 {
