@@ -42,9 +42,10 @@ export default function Home() {
             <div className={styles["horse-card"]}>
               <div className={styles["horse-image"]}>
                 <img className={styles["horse-img"]} src="/assets/images/horses/Poulinieres/Boheme/photo-principale.jpg" alt="Photo de la poulinière Bohême de la Roche" />
-                <a href="/nos-chevaux#poulinieres">
-                  <span className={styles["horses-overlay"]}>Découvrir</span>
-                </a>
+                <Link href="/nos-chevaux#poulinieres">
+                  {" "}
+                  <span className={styles["horses-overlay"]}> Découvrir </span>{" "}
+                </Link>
               </div>
             </div>
           </div>
@@ -55,9 +56,10 @@ export default function Home() {
             <div className={styles["horse-card"]}>
               <div className={styles["horse-image"]}>
                 <img className={styles["horse-img"]} src="/assets/images/horses/Etalons/Ofensor-MAC/photo-principale.jpg" alt="Photo étalon Ofensor MAC" />
-                <a href="/nos-chevaux#etalons">
-                  <span className={styles["horses-overlay"]}>Découvrir</span>
-                </a>
+                <Link href="/nos-chevaux#etalons">
+                  {" "}
+                  <span className={styles["horses-overlay"]}> Découvrir </span>{" "}
+                </Link>
               </div>
             </div>
           </div>
@@ -68,9 +70,10 @@ export default function Home() {
             <div className={styles["horse-card"]}>
               <div className={styles["horse-image"]}>
                 <img className={styles["horse-img"]} src="/assets/images/horses/Poulains/Xaman/photo-principale.jpg" alt="Photo du poulain Xaman de Linlouët" />
-                <a href="/nos-chevaux#poulains">
-                  <span className={styles["horses-overlay"]}>Découvrir</span>
-                </a>
+                <Link href="/nos-chevaux#poulains">
+                  {" "}
+                  <span className={styles["horses-overlay"]}> Découvrir </span>{" "}
+                </Link>
               </div>
             </div>
           </div>
@@ -84,16 +87,16 @@ export default function Home() {
             <img className={styles["news-img"]} src="/assets/images/horses/Poulains/Unice/photo-gallery-1.jpg" alt="Photo Poulain Unice dans son enclos" />
             <div className={styles["social-links"]}>
               <div className={styles["social-link"]}>
-                <a href="https://www.facebook.com/profile.php?id=61564284688045" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.facebook.com/profile.php?id=61564284688045" target="_blank" rel="noopener noreferrer">
                   <p>Suivez-nous sur facebook</p>
                   <img className={`${styles["social-icon"]} ${styles["social-icon-facebook"]}`} src="/assets/images/social_medias/logo-facebook.png" alt="Lien vers la page Facebook de l'élevage" />
-                </a>
+                </Link>
               </div>
               <div className={styles["social-link"]}>
-                <a href="https://www.instagram.com/elevagedelinlouet/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.instagram.com/elevagedelinlouet/" target="_blank" rel="noopener noreferrer">
                   <p>Suivez-nous sur Instagram</p>
                   <img className={`${styles["social-icon"]} ${styles["social-icon-instagram"]}`} src="/assets/images/social_medias/logo-instagram.png" alt="Lien vers la page Instagram de l'élevage" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
