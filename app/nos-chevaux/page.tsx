@@ -9,17 +9,9 @@ function HorseCard({ horse }: { horse: Horse }) {
       <figure className={styles["horse-card"]}>
         <div className={styles["horse-photo-frame"]}>
           {horse.image ? (
-            <img
-              className={styles["horse-photo"]}
-              src={horse.image}
-              alt={horse.alt ?? horse.name}
-            />
+            <img className={styles["horse-photo"]} src={horse.image} alt={horse.alt ?? horse.name} />
           ) : (
-            <div
-              className={styles["horse-photo-placeholder"]}
-              role="img"
-              aria-label={`Photo de ${horse.name} à ajouter`}
-            >
+            <div className={styles["horse-photo-placeholder"]} role="img" aria-label={`Photo de ${horse.name} à ajouter`}>
               Photo à ajouter
             </div>
           )}
@@ -33,11 +25,7 @@ function HorseCard({ horse }: { horse: Horse }) {
 export default function Horses() {
   return (
     <main className={styles["horses-page"]}>
-      <PageHero
-        imageSrc="/assets/images/Boheme-1.jpg"
-        imageAlt="Bohême, jument de l'élevage de Linlouët"
-        title="Nos chevaux"
-      />
+      <PageHero imageSrc="/assets/images/Boheme-1.jpg" imageAlt="Bohême, jument de l'élevage de Linlouët" title="Nos chevaux" />
 
       <section className={`${styles["horse-group"]} ${styles["mares-section"]}`}>
         <h2 className={styles["horse-group-title"]} id="poulinieres">

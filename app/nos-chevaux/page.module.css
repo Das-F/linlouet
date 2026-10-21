@@ -101,10 +101,10 @@
 }
 
 .horse-detail {
-  display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  display: flex;
+  flex-direction: row;
   gap: 40px;
-  width: min(100%, 1200px);
+  width: min(100%, 1000px);
   margin: 0 auto;
   align-items: start;
 }
@@ -133,6 +133,7 @@
 }
 
 .horse-detail-description {
+  margin: 0 0 1em;
   font-size: 1.15rem;
   line-height: 1.7;
 }

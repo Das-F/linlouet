@@ -26,9 +26,7 @@ export async function generateMetadata({ params }: HorsePageProps) {
 
   return {
     title: `${horse.name} | Nos chevaux`,
-    description:
-      horse.alt ??
-      `Découvrez ${horse.name}, ${categoryLabels[horse.category].toLowerCase()} de l'élevage de Linlouët.`,
+    description: horse.alt ?? `Découvrez ${horse.name}, ${categoryLabels[horse.category].toLowerCase()} de l'élevage de Linlouët.`,
   };
 }
 
@@ -40,42 +38,28 @@ export default async function HorsePage({ params }: HorsePageProps) {
     notFound();
   }
 
+  const description = horse.description ?? "Fiche en cours de rédaction.";
+  const relatedHorse = horse.relatedHorseSlug ? getHorseBySlug(horse.relatedHorseSlug) : undefined;
+
   return (
     <main className={styles["horses-page"]}>
-      <PageHero
-        imageSrc={horse.image ?? "/assets/images/Boheme-1.jpg"}
-        imageAlt={horse.alt ?? horse.name}
-        title={horse.name}
-      />
+      <PageHero imageSrc={horse.image ?? "/assets/images/Boheme-1.jpg"} imageAlt={horse.alt ?? horse.name} title={horse.name} />
 
       <section className={styles["horse-group"]}>
         <div className={styles["horse-detail"]}>
-          <div className={styles["horse-photo-frame"]}>
-            {horse.image ? (
-              <img
-                className={styles["horse-photo"]}
-                src={horse.image}
-                alt={horse.alt ?? horse.name}
-              />
-            ) : (
-              <div
-                className={styles["horse-photo-placeholder"]}
-                role="img"
-                aria-label={`Photo de ${horse.name} à ajouter`}
-              >
-                Photo à ajouter
-              </div>
-            )}
-          </div>
-
           <div className={styles["horse-detail-content"]}>
-            <p className={styles["horse-detail-category"]}>{categoryLabels[horse.category]}</p>
+            <h2>Description</h2>
+            {description.split(/\n\s*\n/).map((paragraph, index) => (
+              <p className={styles["horse-detail-description"]} key={index}>
+                {paragraph}
+              </p>
+            ))}
 
-            <h1 className={styles["horse-detail-title"]}>{horse.name}</h1>
-
-            <p className={styles["horse-detail-description"]}>
-              {horse.description ?? "Fiche en cours de rédaction."}
-            </p>
+            {relatedHorse && (
+              <Link className={styles["horse-back-link"]} href={`/nos-chevaux/${relatedHorse.slug}`}>
+                Découvrir la fiche de {relatedHorse.name}
+              </Link>
+            )}
 
             <Link className={styles["horse-back-link"]} href="/nos-chevaux">
               ← Retour à nos chevaux
@@ -83,6 +67,7 @@ export default async function HorsePage({ params }: HorsePageProps) {
           </div>
         </div>
       </section>
+      <section className={styles["horse-gallery"]}></section>
     </main>
   );
 }
