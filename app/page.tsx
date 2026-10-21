@@ -1,23 +1,11 @@
 import styles from "./page.module.css";
 import Link from "next/link";
+import PageHero from "@/components/PageHero/PageHero";
 
 export default function Home() {
   return (
     <div>
-      <section className={styles["hero-section"]}>
-        <div className={styles["hero-image"]}>
-          <img className={styles["hero-img"]} src="/assets/images/Boheme-1.jpg" alt="Élevage de Linlouet" />
-        </div>
-        <div className={styles["hero-text"]}>
-          <h1>Bienvenue à Linlouët</h1>
-          <h2>Elever des Pur-Sangs Lusitaniens en Bretagne, entre terre, mer et traditions vivantes.</h2>
-          <div className={styles["hero-button"]}>
-            <Link href="/contact" className={styles["hero-button"]}>
-              Préparer une visite
-            </Link>
-          </div>
-        </div>
-      </section>
+      <PageHero imageSrc="/assets/images/Boheme-1.jpg" imageAlt="Élevage de Linlouet" title="Bienvenue à Linlouët" subtitle="Elever des Pur-Sangs Lusitaniens en Bretagne, entre terre, mer et traditions vivantes." action={{ href: "/contact", label: "Préparer une visite" }} variant="home" />
 
       <section className={styles["about-section"]}>
         <div className={styles["about-title"]}>
