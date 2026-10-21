@@ -163,3 +163,17 @@
     gap: 24px;
   }
 }
+
+.horse-gallery {
+  background-color: var(--header-bg);
+  padding: 40px 24px;
+  width: min(100%, 1200px);
+  margin: 40px auto 0;
+}
+
+.horse-gallery-title {
+  margin: 0 0 24px;
+  color: var(--nav-text);
+  font-family: var(--font-primary);
+  text-align: center;
+}

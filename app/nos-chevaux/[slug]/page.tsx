@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHero from "@/components/PageHero/PageHero";
+import HorseGallery from "@/components/HorseGallery/HorseGallery";
 import styles from "../page.module.css";
 import { allHorses, categoryLabels, getHorseBySlug } from "../horses";
 
@@ -67,7 +68,14 @@ export default async function HorsePage({ params }: HorsePageProps) {
           </div>
         </div>
       </section>
-      <section className={styles["horse-gallery"]}></section>
+      {horse.gallery && horse.gallery.length > 0 && (
+        <section className={styles["horse-gallery"]} aria-labelledby="horse-gallery-title">
+          <h2 className={styles["horse-gallery-title"]} id="horse-gallery-title">
+            Galerie photo
+          </h2>
+          <HorseGallery horseName={horse.name} images={horse.gallery} />
+        </section>
+      )}
     </main>
   );
 }
