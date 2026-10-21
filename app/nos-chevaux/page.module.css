@@ -147,7 +147,7 @@
 .horse-back-link {
   display: flex;
   text-align: center;
-  max-width: 300px;
+  max-width: 380px;
   margin: 38px auto;
   color: var(--accent-text);
   font-family: var(--font-primary);

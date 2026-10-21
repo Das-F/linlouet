@@ -21,6 +21,8 @@ export const mares: Horse[] = [
     alt: "Bohême de la Roche, poulinière de l'élevage de Linlouët",
     category: "mare",
     description: "Bohême de la Roche (Samuraï SS x Lena Menezes par Visquilho), 1,55m, grise, confirmée à 67, 26 points à l'APSL.\n\nBohême est une jument Lusitanienne au tempérament exceptionnel, dans le sang, douce, sensible et très proche de son humaine.\n\nMère d'Unice de Linlouët, elle transmet à ses produits son élégance, son courage, sa finesse et son caractère exclusif de partenariat avec l'humain.",
+    relatedHorseSlug: "unice",
+
     gallery: ["/assets/images/horses/Poulinieres/Boheme/photo-principale.jpg", "/assets/images/horses/Poulinieres/Boheme/photo-gallery-1.jpg", "/assets/images/horses/Poulinieres/Boheme/photo-gallery-2.jpg", "/assets/images/horses/Poulinieres/Boheme/photo-gallery-3.jpg"],
     genealogy: "/assets/images/horses/Poulinieres/Boheme/photo-genealogy.png",
   },
