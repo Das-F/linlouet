@@ -119,6 +119,12 @@
   font-family: var(--font-primary);
 }
 
+.horse-detail-content h2 {
+  text-align: center;
+  color: var(--accent-text);
+  font-family: var(--font-primary);
+}
+
 .horse-detail-category {
   margin: 0 0 8px;
   font-size: 1.1rem;
