@@ -58,21 +58,30 @@ export default function Methods() {
       </div>
       <div className={styles["methods-text"]}>
         <h3>Elever pour demain, respecter aujourd'hui</h3>
-        <p>Les 3F ne sont aujourd’hui plus seulement un principe intuitif d’élevage.</p>
+        <p>Nous élevons des Lusitaniens avec des objectifs : la qualité du modèle, la locomotion, le mental, les aptitudes sportives ou la capacité à construire une relation juste avec l’être humain comptent dans nos choix de sélection.</p>
+        <p>Mais pour nous, aucune de ces ambitions ne justifie d’oublier ce qu’est fondamentalement un cheval.</p>
         <p>
-          En 2024, <strong>Romane Phelipon, Noémie Hennes, Alice Ruet, Alexia Bret-Morel, Aleksandra Górecka-Bruzda et Léa Lansade</strong> ont étudié les conditions de vie de chevaux de sport de haut niveau. Leur travail montre qu’un meilleur accès au fourrage, à la liberté de mouvement et aux interactions sociales est associé à de meilleurs indicateurs de bien-être. Surtout, leur étude montre que le respect de ces besoins reste compatible avec une carrière sportive de haut niveau.
+          Nous souhaitons produire des chevaux <strong>bien dans leur corps, bien dans leur tête et capables d’entrer en relation avec l’humain sans avoir été privés, pour cela, de leur vie de cheval</strong>.
         </p>
         <p>
-          En 2026,<strong> Wendy Watson, Jill R. D. MacKay et Cathy Dwyer</strong>, de l’Université d’Édimbourg et du SRUC, ont étudié les pratiques de gestion de plus de 1 500 chevaux. Les chevaux bénéficiant des conditions les plus proches des 3F présentaient significativement moins de problèmes rapportés concernant notamment la santé digestive, la locomotion, la manipulation ou certains comportements sociaux.
+          {" "}
+          C’est peut-être là que commence notre conception de l’élevage : sélectionner avec exigence, accompagner avec attention, et laisser à chaque poulain suffisamment de <strong>congénères, de fourrage et de liberté pour grandir pleinement comme un cheval</strong>.
         </p>
-        <p>Ces travaux rejoignent aujourd’hui les recommandations de World Horse Welfare, qui présente les amis, le fourrage et la liberté comme trois besoins essentiels d’une vie adaptée à l’espèce cheval.</p>
       </div>
       <div className={styles["methods-text"]}>
         <h4>Références</h4>
-        <p>Fraser, L. (2012). The Horse’s 3 F’s: Friends, Forage, Freedom.</p>
-        <p>Phelipon, R., Hennes, N., Ruet, A., Bret-Morel, A., Górecka-Bruzda, A. & Lansade, L. (2024). Forage, freedom of movement, and social interactions remain essential fundamentals for the welfare of high-level sport horses. Frontiers in Veterinary Science, 11, 1504116.</p>
-        <p>Watson, W., MacKay, J. R. D. & Dwyer, C. (2026). Friends, forage, freedom: A cluster analysis investigating horse management styles and welfare in the UK and Ireland. Animal Welfare, 35, e15.</p>
-        <p>World Horse Welfare. The 3Fs – Friends, forage and freedom.</p>
+        <p>
+          <strong>Fraser, L. (2012)</strong>. The Horse’s 3 F’s: Friends, Forage, Freedom.
+        </p>
+        <p>
+          <strong>Phelipon, R., Hennes, N., Ruet, A., Bret-Morel, A., Górecka-Bruzda, A. & Lansade, L. (2024)</strong>. Forage, freedom of movement, and social interactions remain essential fundamentals for the welfare of high-level sport horses. Frontiers in Veterinary Science, 11, 1504116.
+        </p>
+        <p>
+          <strong>Watson, W., MacKay, J. R. D. & Dwyer, C. (2026)</strong>. Friends, forage, freedom: A cluster analysis investigating horse management styles and welfare in the UK and Ireland. Animal Welfare, 35, e15.
+        </p>
+        <p>
+          <strong>World Horse Welfare</strong>. The 3Fs – Friends, forage and freedom.
+        </p>
       </div>
     </section>
   );
