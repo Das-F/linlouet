@@ -1,6 +1,6 @@
 .horses-page {
   width: 100%;
-  margin: 0 auto 80px;
+  margin: 0 auto 30px;
 }
 
 .horse-group {
@@ -145,10 +145,13 @@
 }
 
 .horse-back-link {
-  display: inline-block;
-  margin-top: 28px;
+  display: flex;
+  text-align: center;
+  max-width: 300px;
+  margin: 38px auto;
   color: var(--accent-text);
   font-family: var(--font-primary);
+  font-size: 1.35rem;
   text-decoration: none;
 }
 
@@ -173,8 +176,8 @@
 .horse-gallery {
   background-color: var(--header-bg);
   padding: 40px 24px;
-  width: min(100%, 1200px);
-  margin: 40px auto 0;
+  width: 100%;
+  margin: 40px 0 0;
 }
 
 .horse-gallery-title {
@@ -182,4 +185,16 @@
   color: var(--nav-text);
   font-family: var(--font-primary);
   text-align: center;
+}
+
+.genealogy-section {
+  margin-top: 40px;
+  background-color: var(--bg);
+  --image-section-title-color: var(--accent-text);
+}
+
+.punctuation-gallery {
+  margin-top: 40px;
+  background-color: var(--header-bg);
+  --image-section-title-color: var(--nav-text);
 }

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHero from "@/components/PageHero/PageHero";
 import HorseGallery from "@/components/HorseGallery/HorseGallery";
+import HorseImageSection from "@/components/HorseImageSection/HorseImageSection";
 import styles from "../page.module.css";
 import { allHorses, categoryLabels, getHorseBySlug } from "../horses";
 
@@ -61,10 +62,6 @@ export default async function HorsePage({ params }: HorsePageProps) {
                 Découvrir la fiche de {relatedHorse.name}
               </Link>
             )}
-
-            <Link className={styles["horse-back-link"]} href="/nos-chevaux">
-              ← Retour à nos chevaux
-            </Link>
           </div>
         </div>
       </section>
@@ -76,6 +73,19 @@ export default async function HorsePage({ params }: HorsePageProps) {
           <HorseGallery horseName={horse.name} images={horse.gallery} />
         </section>
       )}
+      {horse.genealogy && (
+        <section className={styles["genealogy-section"]} aria-label="Arbre généalogique">
+          <HorseImageSection title="Arbre généalogique" imageSrc={horse.genealogy} imageAlt={`Arbre généalogique de ${horse.name}`} />
+        </section>
+      )}
+      {horse.ponctuation && (
+        <section className={styles["punctuation-gallery"]} aria-label="Ponctuation">
+          <HorseImageSection title="Ponctuation" imageSrc={horse.ponctuation} imageAlt={`Ponctuation de ${horse.name}`} />
+        </section>
+      )}
+      <Link className={styles["horse-back-link"]} href="/nos-chevaux">
+        ← Retour à nos chevaux
+      </Link>
     </main>
   );
 }
