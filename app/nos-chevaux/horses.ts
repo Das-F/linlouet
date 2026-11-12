@@ -33,6 +33,7 @@ export const mares: Horse[] = [
     alt: "Bela Gloria de Manolo, poulinière de l'élevage de Linlouët",
     category: "mare",
     description: "Bela Gloria de Manolo (Agua-Viva CSM x Teara CSM par Imperio), jument isabelle, 1,73m, ponctuée à 71 pts APSL.\n\nBela Gloria occupe une place essentielle à l'élevage. Sa production se distingue par des qualités qu'elle transmet avec constance : le cadre et la souplesse, l'intelligence, la fonctionnalité et un galop de qualité.\n\nElle est notamment mère de H-Nefertiti de Manolo (par Quarteto Da Broa), jument de dressage IDR 105, finaliste SHF à 5 ans et ayant évolué jusqu'en Amateur 2 Grand Prix, de Rajput de Moïta, aujourd'hui propriété de Bartabas au sein de l'Académie Equestre de Versailles, ainsi que Vermeer LR, né en 2025 et exporté au sevrage en Autriche.",
+    relatedHorseSlug: "vermeer",
     gallery: ["/assets/images/horses/Poulinieres/BelaGloria/photo-principale.jpg", "/assets/images/horses/Poulinieres/BelaGloria/photo-gallery-1.jpg", "/assets/images/horses/Poulinieres/BelaGloria/photo-gallery-2.jpg", "/assets/images/horses/Poulinieres/BelaGloria/photo-gallery-3.jpg"],
     genealogy: "/assets/images/horses/Poulinieres/BelaGloria/photo-genealogy.png",
   },
