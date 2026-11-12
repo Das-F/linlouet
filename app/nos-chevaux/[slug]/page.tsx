@@ -45,7 +45,7 @@ export default async function HorsePage({ params }: HorsePageProps) {
 
   return (
     <main className={styles["horses-page"]}>
-      <PageHero imageSrc={horse.image ?? "/assets/images/Boheme-1.jpg"} imageAlt={horse.alt ?? horse.name} title={horse.name} />
+      <PageHero imageSrc={horse.image ?? "/assets/images/Boheme-1.jpg"} imageAlt={horse.alt ?? horse.name} title={horse.status ? `${horse.name} — ${horse.status}` : horse.name} />
 
       <section className={styles["horse-group"]}>
         <div className={styles["horse-detail"]}>

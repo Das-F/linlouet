@@ -3,6 +3,7 @@ export type HorseCategory = "mare" | "stallion" | "foal";
 export type Horse = {
   slug: string;
   name: string;
+  status?: "À vendre" | "Vendu";
   image?: string;
   alt?: string;
   gallery?: string[];
@@ -79,6 +80,7 @@ export const foals: Horse[] = [
   {
     slug: "unice",
     name: "Unice de Linlouët",
+    status: "Vendu",
     image: "/assets/images/horses/Poulains/Unice/photo-principale.jpg",
     alt: "Unice de Linlouët, poulain de l'élevage de Linlouët",
     category: "foal",
@@ -89,6 +91,7 @@ export const foals: Horse[] = [
   {
     slug: "vermeer",
     name: "Vermeer LR",
+    status: "Vendu",
     image: "/assets/images/horses/Poulains/Vermeer/photo-principale.jpg",
     alt: "Vermeer LR, poulain de l'élevage de Linlouët",
     category: "foal",
@@ -99,6 +102,7 @@ export const foals: Horse[] = [
   {
     slug: "xaman",
     name: "Xaman de Linlouët",
+    status: "À vendre",
     image: "/assets/images/horses/Poulains/Xaman/photo-principale.jpg",
     alt: "Xaman de Linlouët, poulain de l'élevage de Linlouët",
     category: "foal",

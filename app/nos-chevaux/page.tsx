@@ -16,7 +16,10 @@ function HorseCard({ horse }: { horse: Horse }) {
             </div>
           )}
         </div>
-        <figcaption>{horse.name}</figcaption>
+        <figcaption>
+          {horse.name}
+          {horse.status && <span className={styles["horse-status"]}> — {horse.status}</span>}
+        </figcaption>
       </figure>
     </Link>
   );
