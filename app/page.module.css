@@ -63,7 +63,7 @@
 }
 
 .methods-button {
-  margin: 0 15px 0 0;
+  margin: 10px 15px 0 0;
   font-family: var(--font-primary);
   font-size: 1.4rem;
   color: var(--accent-text);
@@ -365,6 +365,7 @@
 @media (max-width: 1024px) {
   .about-content {
     gap: 20px;
+    flex-direction: column;
   }
 
   .about-image {
@@ -374,8 +375,9 @@
   }
 
   .about-text {
-    min-width: 0;
-    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+    padding: 15px;
   }
 
   .social-links {

@@ -52,7 +52,7 @@
 
 .home-hero-content {
   bottom: 12px;
-  width: min(90%, 1200px);
+  width: min(100%, 1440px);
   padding: 30px;
   border-radius: 5px;
 }
@@ -93,7 +93,7 @@
   }
 
   .home-hero-content {
-    width: min(92%, 1000px);
+    width: min(100%, 1024px);
     padding: clamp(16px, 3vw, 26px);
   }
 
