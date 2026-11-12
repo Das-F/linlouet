@@ -147,11 +147,11 @@
 .horse-back-link {
   display: flex;
   text-align: center;
-  max-width: 220px;
+  max-width: 310px;
   margin: 38px auto;
   color: var(--accent-text);
   font-family: var(--font-primary);
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 
