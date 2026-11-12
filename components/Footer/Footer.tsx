@@ -10,30 +10,32 @@ export default function Footer() {
             <img className={styles["footer-logo"]} src="/assets/images/Logos/logo_linlouet_full.png" alt="Logo de l'Élevage de Linlouet" />
           </Link>
         </div>
-        <div className={styles["footer-links"]}>
-          <Link href="/" className={styles["footer-link"]}>
-            Accueil
-          </Link>
-          <Link href="/nos-methodes" className={styles["footer-link"]}>
-            Nos méthodes
-          </Link>
-          <Link href="/nos-chevaux" className={styles["footer-link"]}>
-            Nos chevaux
-          </Link>
-          <Link href="/contact" className={styles["footer-link"]}>
-            Venir à Linlouët
-          </Link>
-          <p className={styles["footer-contact"]}>
-            Contactez-nous : <a href="contact@elevagelinlouet.fr">contact@elevagelinlouet.fr</a>
-          </p>
-        </div>
-        <div className={styles["legal-links"]}>
-          <Link href="/mentionslegales" className={styles["footer-link"]}>
-            Mentions légales
-          </Link>
-          <Link href="/politiqueconfidentialite" className={styles["footer-link"]}>
-            Politique de confidentialité
-          </Link>
+        <div className={styles["footer-link-groups"]}>
+          <div className={styles["footer-links"]}>
+            <Link href="/" className={styles["footer-link"]}>
+              Accueil
+            </Link>
+            <Link href="/nos-methodes" className={styles["footer-link"]}>
+              Nos méthodes
+            </Link>
+            <Link href="/nos-chevaux" className={styles["footer-link"]}>
+              Nos chevaux
+            </Link>
+            <Link href="/contact" className={styles["footer-link"]}>
+              Venir à Linlouët
+            </Link>
+            <p className={styles["footer-contact"]}>
+              Contactez-nous : <a href="contact@elevagelinlouet.fr">contact@elevagelinlouet.fr</a>
+            </p>
+          </div>
+          <div className={styles["legal-links"]}>
+            <Link href="/mentionslegales" className={styles["footer-link"]}>
+              Mentions légales
+            </Link>
+            <Link href="/politiqueconfidentialite" className={styles["footer-link"]}>
+              Politique de confidentialité
+            </Link>
+          </div>
         </div>
       </div>
       <div className={styles["footer-mentions"]}>

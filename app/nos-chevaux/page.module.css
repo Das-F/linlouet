@@ -18,7 +18,7 @@
 }
 
 .horse-group-title {
-  width: 800px;
+  width: min(100%, 800px);
   display: flex;
   justify-content: center;
   margin: 0 auto 32px;
@@ -89,20 +89,24 @@
   white-space: nowrap;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
   .horse-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .horse-group {
-    padding: 48px 20px 56px;
+    padding: 48px 16px 56px;
   }
 
   .horse-card-grid,
   .stallions-section .horse-card-grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .horse-card-grid {
+    width: min(100%, 460px);
   }
 }
 
@@ -170,13 +174,6 @@
   min-width: 0;
   color: inherit;
   text-decoration: none;
-}
-
-@media (max-width: 760px) {
-  .horse-detail {
-    grid-template-columns: minmax(0, 1fr);
-    gap: 24px;
-  }
 }
 
 .horse-gallery {
