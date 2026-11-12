@@ -7,7 +7,7 @@ export type Horse = {
   alt?: string;
   gallery?: string[];
   genealogy?: string;
-  ponctuation?: string;
+  punctuation?: string;
   category: HorseCategory;
   description?: string;
   relatedHorseSlug?: string;
@@ -35,7 +35,6 @@ export const mares: Horse[] = [
     description: "Bela Gloria de Manolo (Agua-Viva CSM x Teara CSM par Imperio), jument isabelle, 1,73m, ponctuée à 71 pts APSL.\n\nBela Gloria occupe une place essentielle à l'élevage. Sa production se distingue par des qualités qu'elle transmet avec constance : le cadre et la souplesse, l'intelligence, la fonctionnalité et un galop de qualité.\n\nElle est notamment mère de H-Nefertiti de Manolo (par Quarteto Da Broa), jument de dressage IDR 105, finaliste SHF à 5 ans et ayant évolué jusqu'en Amateur 2 Grand Prix, de Rajput de Moïta, aujourd'hui propriété de Bartabas au sein de l'Académie Equestre de Versailles, ainsi que Vermeer LR, né en 2025 et exporté au sevrage en Autriche.",
     gallery: ["/assets/images/horses/Poulinieres/BelaGloria/photo-principale.jpg", "/assets/images/horses/Poulinieres/BelaGloria/photo-gallery-1.jpg", "/assets/images/horses/Poulinieres/BelaGloria/photo-gallery-2.jpg", "/assets/images/horses/Poulinieres/BelaGloria/photo-gallery-3.jpg"],
     genealogy: "/assets/images/horses/Poulinieres/BelaGloria/photo-genealogy.png",
-    ponctuation: "/assets/images/horses/Poulinieres/BelaGloria/photo-ponctuation.png",
   },
   {
     slug: "nazare",
@@ -48,7 +47,6 @@ export const mares: Horse[] = [
     relatedHorseSlug: "xaman",
     gallery: ["/assets/images/horses/Poulinieres/Nazare/photo-principale.jpg", "/assets/images/horses/Poulinieres/Nazare/photo-gallery-1.jpg"],
     genealogy: "/assets/images/horses/Poulinieres/Nazare/photo-genealogy.png",
-    ponctuation: "/assets/images/horses/Poulinieres/Nazare/photo-ponctuation.png",
   },
 ];
 
@@ -60,6 +58,7 @@ export const stallions: Horse[] = [
     alt: "Ofensor MAC, étalon sélectionné",
     category: "stallion",
     description: "Fiche d'Ofensor MAC à compléter.",
+    punctuation: "/assets/images/horses/Etalons/Ofensor-MAC/photo-punctuation.png",
     gallery: ["/assets/images/horses/Etalons/Ofensor-MAC/photo-principale.jpg"],
     genealogy: "/assets/images/horses/Etalons/Ofensor-MAC/photo-genealogy.png",
   },
@@ -95,7 +94,6 @@ export const foals: Horse[] = [
     description: "Vermeer LR, par Imperador LBA x Bela Gloria de Manolo par Agua Viva CSM, né en 2025.",
     gallery: ["/assets/images/horses/Poulains/Vermeer/photo-principale.jpg"],
     genealogy: "/assets/images/horses/Poulains/Vermeer/photo-genealogy.png",
-    ponctuation: "/assets/images/horses/Poulains/Vermeer/photo-ponctuation.png",
   },
   {
     slug: "xaman",

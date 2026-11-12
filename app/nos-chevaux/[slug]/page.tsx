@@ -78,9 +78,9 @@ export default async function HorsePage({ params }: HorsePageProps) {
           <HorseImageSection title="Arbre généalogique" imageSrc={horse.genealogy} imageAlt={`Arbre généalogique de ${horse.name}`} />
         </section>
       )}
-      {horse.ponctuation && (
+      {horse.punctuation && (
         <section className={styles["punctuation-gallery"]} aria-label="Ponctuation">
-          <HorseImageSection title="Ponctuation" imageSrc={horse.ponctuation} imageAlt={`Ponctuation de ${horse.name}`} />
+          <HorseImageSection title="Ponctuation" imageSrc={horse.punctuation} imageAlt={`Ponctuation de ${horse.name}`} />
         </section>
       )}
       <Link className={styles["horse-back-link"]} href="/nos-chevaux">
