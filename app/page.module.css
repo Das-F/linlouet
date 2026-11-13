@@ -441,7 +441,17 @@
   }
 
   .social-link p {
-    font-size: 1.15rem;
+    font-size: 1rem;
+  }
+
+  .social-icon-facebook {
+    width: 28px;
+    height: 28px;
+  }
+
+  .social-icon-instagram {
+    width: 36px;
+    height: 36px;
   }
 
   .contact-image-container {
