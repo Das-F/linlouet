@@ -378,10 +378,16 @@
     width: 100%;
     max-width: 1000px;
     padding: 15px;
+    font-size: 1.1rem;
   }
 
   .social-links {
     gap: 28px;
+  }
+
+  .news-content p,
+  .contact-content p {
+    font-size: 1.1rem;
   }
 }
 
@@ -415,6 +421,8 @@
   .about-text {
     width: 100%;
     text-align: left;
+    font-size: 1rem;
+    line-height: 1.55;
   }
 
   .methods-button {
@@ -427,7 +435,21 @@
   }
 
   .horses-title p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+  }
+
+  .horse-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .horses-overlay {
+    font-size: 1.1rem;
+  }
+
+  .news-content p,
+  .contact-content p {
+    font-size: 1rem;
+    line-height: 1.55;
   }
 
   .social-links {
