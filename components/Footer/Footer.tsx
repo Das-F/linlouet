@@ -25,7 +25,7 @@ export default function Footer() {
               Venir à Linlouët
             </Link>
             <p className={styles["footer-contact"]}>
-              Contactez-nous : <a href="contact@elevagelinlouet.fr">contact@elevagelinlouet.fr</a>
+              Contactez-nous : <a href="mailto:contact@elevagelinlouet.fr">contact@elevagelinlouet.fr</a>
             </p>
           </div>
           <div className={styles["legal-links"]}>
@@ -39,7 +39,12 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles["footer-mentions"]}>
-        <p>&copy; 2026 Elevage Linlouët. Tous droits réservés. Site réalisé par Artemis Lab</p>
+        <p>©{new Date().getFullYear()} Elevage Linlouët. Tous droits réservés.</p>
+        <p>
+          <a href="https://artemislab.fr/" className="artemis-link" title="Lien vers le site Artemis Lab">
+            Site réalisé par Artemis Lab
+          </a>
+        </p>
       </div>
     </footer>
   );
