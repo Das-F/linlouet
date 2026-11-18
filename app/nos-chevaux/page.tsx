@@ -15,10 +15,13 @@ function HorseCard({ horse }: { horse: Horse }) {
               Photo à ajouter
             </div>
           )}
+          <span className={styles["horses-overlay"]} aria-hidden="true">
+            Découvrir
+          </span>
         </div>
         <figcaption>
           {horse.name}
-          {horse.status && <span className={styles["horse-status"]}> — {horse.status}</span>}
+          {horse.status && <span className={styles["horse-status"]}>{horse.status}</span>}
         </figcaption>
       </figure>
     </Link>

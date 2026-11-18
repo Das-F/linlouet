@@ -1,10 +1,11 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 import styles from "./PageHero.module.css";
 
 type PageHeroProps = {
   imageSrc: string;
   imageAlt: string;
-  title: string;
+  title: ReactNode;
   subtitle?: string;
   action?: {
     href: string;

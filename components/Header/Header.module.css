@@ -37,7 +37,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: min(100%, 800px);
+  width: min(90%, 800px);
   margin: 0 auto;
 }
 

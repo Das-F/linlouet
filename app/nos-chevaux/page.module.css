@@ -54,9 +54,20 @@
 }
 
 .horse-photo-frame {
+  position: relative;
   width: 100%;
   aspect-ratio: 4 / 3;
+  overflow: hidden;
   background-color: var(--header-bg);
+}
+
+.horse-photo-frame::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background-color: rgb(255 255 255 / 72%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .horse-photo {
@@ -76,17 +87,45 @@
   font-size: 1.35rem;
 }
 
+.horses-overlay {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--text);
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  font-weight: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.horse-card-link:hover .horse-photo-frame::after,
+.horse-card-link:hover .horses-overlay,
+.horse-card-link:focus-visible .horse-photo-frame::after,
+.horse-card-link:focus-visible .horses-overlay {
+  opacity: 1;
+}
+
+.horse-card-link:focus-visible {
+  outline: 3px solid var(--accent-text);
+  outline-offset: 4px;
+}
+
 .horse-card figcaption {
-  padding: 14px 12px;
+  padding: 14px 4px;
   color: var(--accent-text);
   font-family: var(--font-primary);
   font-size: 1.45rem;
 }
 
 .horse-status {
+  display: block;
   font-size: 0.85em;
   font-weight: 600;
-  white-space: nowrap;
+  line-height: 1.2;
 }
 
 @media (max-width: 1024px) {
@@ -146,6 +185,7 @@
 }
 
 .horse-detail-content {
+  width: 100%;
   color: var(--accent-text);
   font-family: var(--font-primary);
 }
@@ -173,6 +213,7 @@
   margin: 0 0 1em;
   font-size: 1.15rem;
   line-height: 1.7;
+  text-align: center;
 }
 
 .horse-back-link {
@@ -184,6 +225,7 @@
   font-family: var(--font-primary);
   font-size: 1.4rem;
   text-decoration: none;
+  padding: 10px 20px;
 }
 
 .horse-back-link:hover {

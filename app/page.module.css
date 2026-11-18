@@ -60,6 +60,7 @@
   justify-content: flex-end;
   gap: 12px;
   text-decoration: none;
+  padding: 10px 20px;
 }
 
 .methods-button {
@@ -132,10 +133,10 @@
 
 .horse-text {
   display: flex;
-  min-height: 3.2em;
+  min-height: 2em;
   align-items: center;
   justify-content: center;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 
 .horse-text h3 {
@@ -283,6 +284,7 @@
   text-decoration: none;
   width: auto;
   max-width: none;
+  padding: 10px;
 }
 
 .social-link p:hover {
@@ -396,7 +398,7 @@
   .horses-section,
   .news-section,
   .contact-section {
-    padding: 44px 16px;
+    padding: 34px 16px;
   }
 
   .about-title h2,
@@ -440,6 +442,7 @@
 
   .horse-text h3 {
     font-size: 1.2rem;
+    margin: 16px 0 4px 0;
   }
 
   .horses-overlay {
@@ -454,7 +457,7 @@
 
   .social-links {
     flex-direction: column;
-    gap: 16px;
+    gap: 4px;
     padding: 0 12px 16px;
   }
 
@@ -464,6 +467,7 @@
 
   .social-link p {
     font-size: 1rem;
+    padding: 8px;
   }
 
   .social-icon-facebook {
